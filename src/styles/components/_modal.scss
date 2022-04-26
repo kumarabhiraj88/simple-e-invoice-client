@@ -1,0 +1,30 @@
+//This is the basic default style we are using for other modals 
+.modal-dialog{
+    width: 50vw;   /* Occupy the 90% of the screen width */
+	height: 802px;
+	max-width: 40vw;
+ }
+
+//by default, react bootstrap modal has a css , we are overriding it with this
+//you can see the classname while inspecting the element
+//This class is used only for modal of edit comment
+.modal-dialog-edititem{
+	height: 802px;
+	min-width: 70vw;
+	max-width: 80vw;
+	padding-left: 8%;
+}
+
+.modal-dialog-editcompany{
+	height: 802px;
+	min-width: 40vw;
+	max-width: 60vw;
+}
+
+.modal-dialog-invoicepopup{
+    width: 70vw;   /* Occupy the 90% of the screen width */
+	padding-left: 8%;
+	height: 802px;
+	max-width: 80vw;
+ }
+
